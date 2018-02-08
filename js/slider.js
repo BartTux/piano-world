@@ -36,7 +36,7 @@ rightArrow.addEventListener("click", function(){
 function directionalArrow(conditional){
     if(conditional) {
         numberOfSlide++;
-    } else{
+    } else {
         numberOfSlide--;
     }
     hideSlide();
