@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Piano World - Your Dreamed Piano!</title>
+        <meta name="author" content="Majkel" lang="pl">
+        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+
+        <!--********************* Header with slider and navigation *********************-->
+
+        <header class="heading">
+            <nav class="navigation">
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.png" alt="">
+                            <span>Pianoworld</span>
+                        </a>
+                    </div>
+                    <div class="nav-social">
+                        <ul>
+                            <li>
+                                <a href="#" title="Soundcloud">
+                                    <span class="fa fa-soundcloud" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Facebook">
+                                    <span class="fa fa-facebook" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Twitter">
+                                    <span class="fa fa-twitter" aria-hidden="true"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav-items">
+                        <ul>
+                            <li>
+                                <a href="#" id="first-nav" class="active">Home</a>
+                            </li>
+                            <li>
+                                <a href="#" id="second-nav">About</a>
+                            </li>
+                            <li>
+                                <a href="#" id="third-nav">Gallery</a>
+                            </li>
+                            <li>
+                                <a href="#" id="fourth-nav">Opinions</a>
+                            </li>
+                            <li>
+                                <a href="#" id="fifth-nav">Store</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container">
+                <a href="#" id="left-arrow">
+                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                </a>
+                <div class="heading-image">
+                    <!-- Here are the slider images which are in the slider.js file -->
+                </div>
+                <div class="heading-text">
+                    <!-- Here are the descriptions and buttons which are in the slider.js file -->
+                </div>
+                <a href="#" id="right-arrow">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                </a>
+            </div>
+        </header>
+
+        <!--************************** The "About us" section **************************-->
+
+        <article class="about-article">
+            <section class="newsletter">
+                <div class="container">
+                    <h2>
+                        <span class="subscribe">Subscribe</span> to our newsletter!
+                    </h2>
+                    <form>
+                        <label for="news-email">Enter your E-mail and stay up to date with our latest news and products.</label>
+                        <input type="email" id="news-email" placeholder="E-mail">
+                        <button id="news-button">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+            <div class="container">
+                <header>
+                    <h2>About us</h2>
+                </header>
+                <section class="section-img">
+                    <img src="https://placeimg.com/500/300/any" alt="The picture shows our company outside">
+                </section>
+                <section class="section-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem excepturi porro necessitatibus molestiae illo distinctio tempore deleniti assumenda eligendi tempora cumque doloribus, qui laudantium quaerat repellat ratione ducimus obcaecati dolore quam dolorum repudiandae voluptas! Asperiores nulla ut, velit, quaerat deleniti eligendi quia molestias illo aperiam reiciendis commodi aliquam est animi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum doloremque culpa saepe nobis.
+                    </p>
+                    <form>
+                        <button class="more-button">
+                            <span class="fa fa-plus" aria-hidden="true"></span>Read more
+                        </button>
+                    </form>
+                </section>
+                <section class="section-text">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem excepturi porro necessitatibus molestiae illo distinctio tempore deleniti assumenda eligendi tempora cumque doloribus, qui laudantium quaerat repellat ratione ducimus obcaecati dolore quam dolorum repudiandae voluptas! Asperiores nulla ut, velit, quaerat deleniti eligendi quia molestias illo aperiam reiciendis commodi aliquam est animi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae rerum dicta voluptates repellendus.
+                    </p>
+                    <form>
+                        <button class="more-button">
+                            <span class="fa fa-plus" aria-hidden="true"></span>Read more
+                        </button>
+                    </form>
+                </section>
+                <section class="section-img">
+                    <img src="https://placeimg.com/500/300/any" alt="The picture shows our company inside">
+                </section>
+            </div>
+        </article>
+
+        <!--********************* JavaScript files and jQuery libary *********************-->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/navigation-scroll.js"></script>
+        <script src="js/navigation-active.js"></script>
+        <script src="js/slider.js"></script>
+    </body>
+</html>
