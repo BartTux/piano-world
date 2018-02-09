@@ -45,6 +45,7 @@ q:before, q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -115,6 +116,13 @@ body {
     color: #151515;
     font-weight: 300;
     transition: .3s all linear;
+	outline: none;
+}
+
+.logo img {
+	display: inline-block;
+	margin-top: -4px;
+	border: 0;
 }
 
 .logo a:hover,
@@ -152,6 +160,7 @@ body {
     text-decoration: none;
     color: #151515;
     transition: .3s all linear;
+	outline: none;
 }
 
 .nav-items ul li a.active,
@@ -187,6 +196,7 @@ body {
 .nav-social ul li a {
     color: #000;
     transition: .3s all linear;
+	outline: none;
 }
 
 .nav-social ul li:first-child {
